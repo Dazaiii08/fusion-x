@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Fusion Club</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="admin-dashboard">
+        <h2>Admin Dashboard</h2>
+        <section class="event-stats">
+            <h3>Event Stats</h3>
+            <p>Total Events: 0</p>
+            <p>Upcoming Events: 0</p>
+            <p>Total Registrations: 0</p>
+            <p>Active Users: 0</p>
+        </section>
+        <section class="add-event">
+            <h3>Add New Event</h3>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Event Name" required>
+                <input type="date" placeholder="Event Date" required>
+                <select required>
+                    <option value="tech">Tech</option>
+                    <option value="design">Design</option>
+                    <option value="gaming">Gaming</option>
+                    <option value="workshop">Workshop</option>
+                </select>
+                <textarea placeholder="Event Description" required></textarea>
+                <button type="submit">Add Event</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
